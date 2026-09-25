@@ -17,5 +17,5 @@ def status():
 
 
 #on the server you can check official documentation by loophole address /doc or /redoc  
-
-
+#  uvicorn day01.main:app --reload(--reload is running, your server should automatically reload.)
+#http://127.0.0.1:8000/openapi.json (You'll see a large JSON document.That's your application's OpenAPI schema)
